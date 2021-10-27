@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background: rgb(130,177,232);
+    background: linear-gradient(83deg, rgba(130,177,232,1) 0%, rgba(244,168,188,1) 60%);
+}
+
+.big-box{
+    width: 430px;
+    height: 541px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 100px auto;
+} 
+
+h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 55px 60px;
+}
+
+.boxOne{
+    background: #2355F2;
+    width: 430px;
+    height: 211.94px;
+    background-image: url(./Pattern.png);
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+#title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+    padding: 13px 24px 0px 24px
+}
+
+input{
+    width: 259px;
+    height: 44px;
+    background: #F5F7FA;
+    border: 1px solid #E6E8F0;
+    display: inline;
+    margin: 24px 8px 0px 24px;
+    padding-left: 18px;
+}
+
+button{
+    width: 115px;
+    height: 44px;
+    background: #2355F2;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+#spam{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #A6A6A6;
+    padding: 16px 152px 97px 24px;
+}
+
+#final-paragraph{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0px 24px 24px 24px;
+    color: #595959;
+}
